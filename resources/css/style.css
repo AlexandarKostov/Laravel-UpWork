@@ -1,0 +1,149 @@
+.background-login {
+    background-image: url("/public/bg-images/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-register {
+    background-image: url("/public/bg-images/2.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.background-dashboard {
+    background-image: url("/public/bg-images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-profile {
+    background-image: url("/public/bg-images/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background-applicant {
+    background-image: url("/public/bg-images/5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.color-green {
+    background-color: #48695c;
+}
+
+.color-orange {
+    background-color: #dd7f1e;
+}
+
+.green-light {
+    color: #949d99;
+}
+
+.color-red {
+    background-color: #ff5757;
+}
+
+.form-check-input {
+    position: absolute;
+    opacity: 0;
+    display: none;
+}
+
+.selected {
+    color: #f6f6f6 !important;
+    background-color: #48695c !important;
+}
+
+.form-check-box {
+    cursor: pointer;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+
+.form-check-box:hover {
+    cursor: pointer;
+    color: #f6f6f6;
+    background-color: #48695c !important;
+}
+
+.card-circle {
+    position: relative;
+    left: 80%;
+    top: -65%;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-square {
+    top: -35px;
+    right: 25px;
+    height: 80px;
+    width: 80px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.card-image {
+    position: relative;
+    top: -80px;
+    left: -20px;
+}
+
+.border-card-options {
+    position: relative;
+    top: 50px;
+}
+
+.options {
+    padding: 20px;
+    display: none;
+    top: 50%;
+    right: -75px;
+    transform: translateY(-50%);
+}
+
+.project-icon {
+    position: relative;
+    right: -80%;
+    bottom: -150px;
+}
+
+
+.filter {
+    position: sticky;
+    top: 20px;
+}
+
+.filter-checkbox:checked ~ .card-wrapper .card {
+    opacity: 0.6;
+}
+
+.filter-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+
